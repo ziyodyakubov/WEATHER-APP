@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FAVIVON LINK -->
+    <link rel="icon" href="https://icon-library.com/images/weather-icon/weather-icon-14.jpg" />
+
+    <!-- BOX ICONS LINK -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- TAILWIND LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <!-- TOP SECTION STARTED -->
+            <div class="top-section flex justify-between mt-[63px] items-center">
+                <div class="switch-mode">
+                    <i class="bx bx-toggle-left text-[70px] cursor-pointer"></i>
+                </div>
+
+                <div class="search-country w-[803px] h-[62px] flex items-center">
+                    <i class="bx bx-search text-[40px] text-[#666] relative left-[70px]"></i>
+                    <input type="text" placeholder="Search for your preffered city..."
+                        class="w-[803px] h-[62px] rounded-[40px] shadow-lg border-[1px] border-[#00000028] bg-transparent pl-[82px] outline-none text-[18px] text-[#ffffff72]" />
+                </div>
+
+                <div
+                    class="current-location py-[14px] px-[25px] flex items-center gap-2 bg-[#4CBB17] rounded-[40px] shadow-xl cursor-pointer">
+                    <i class="bx bx-current-location text-[35px]"></i>
+                    <h3 class="text-[#fff]">Current Location</h3>
+                </div>
+            </div>
+            <!-- TOP SECTION ENDED -->
+
+            <!-- INFORMATION SECTION STARTED -->
+
+            <div class="information-section container pt-[49px]">
+                <div class="first flex gap-[55px] justify-between items-center">
+                    <div
+                        class="first-child-1 shadox w-[510px] h-[330px] py-[53px] px-[107px] rounded-[30px] text-center">
+                        <h2 class="text-[36px] text-[#fff] font-[700] pb-[29px]">Athens</h2>
+
+                        <div class="flex flex-col">
+                            <h1 class="text-[96px] text-[#Fff] font-[700]">09:03</h1>
+                            <p class="text-[20px] text-[#fff] font-[400] relative bottom-[20px]">Thursday, 31 Aug</p>
+                        </div>
+
+                    </div>
+
+                    <div class="first-child-2 shadox w-[780px] p-[20px] h-[330px] flex justify-between rounded-[30px]">
+                        <div class="div flex flex-col">
+                            <h2 class="text-[80px] font-[700] text-[#fff] haa">24°C</h2>
+                            <div class="flex items-center haa relative bottom-[30px]">
+                                <h3 class="text-[20px] font-[600]">Feels like:</h3>
+                                <h2 class="text-[32px] font-[700] pl-[9px]">22°C</h2>
+                            </div>
+
+                            <div class="flex items-center gap-[11px] pt-[7px] pl-[26px]">
+                                <i class='bx bx-sun text-[48px] text-[#fff]'></i>
+                                <div class="text-[#FFf]">
+                                    <h4 class="text-[20px] font-[500]">Sunrise</h4>
+                                    <h5 class="text-[16px] font-[500]">06:37 AM</h5>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-[11px] pt-[11px] pl-[26px]">
+                                <i class='bx bx-sun text-[48px] text-[#fff]'></i>
+                                <div class="text-[#FFf]">
+                                    <h4 class="text-[20px] font-[500]">Sunrise</h4>
+                                    <h5 class="text-[16px] font-[500]">06:37 AM</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="div flex flex-col">
+                            <div>
+                                <img src="./assets/clear 1.svg" alt="clear" class="relative bottom-[25px]">
+                            </div>
+
+                            <h3 class="text-[32px] text-[#fff] font-[700] text-center relative bottom-[35px]">Sunny</h3>
+                        </div>
+
+                        <div class="div flex flex-col">
+                            <h2>24°C</h2>
+                            <div class="flex items-center">
+                                <h3>Feels like:</h3>
+                                <h2>22°C</h2>
+                            </div>
+
+                            <div class="flex">
+                                <i class='bx bx-sun'></i>
+                                <div>
+                                    <h4>Sunrise</h4>
+                                    <h5>06:37 AM</h5>
+                                </div>
+                            </div>
+
+                            <div class="flex">
+                                <i class='bx bx-sun'></i>
+                                <div>
+                                    <h4>Sunrise</h4>
+                                    <h5>06:37 AM</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="second mt-[50px] flex justify-between gap-[61px]">
+                    <div class="second-child-1 shadox w-[414px] h-[366px] py-[18px] px-[30px] rounded-[30px]">
+                        <h2>5 Days Forecast:</h2>
+
+                        <div class="flex flex-col">
+                            <div>
+                                <img src="" alt="">
+                                <h3>20°C</h3>
+                                <h4>Friday, 1 Sep</h4>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h3>22°C</h3>
+                                <h4>Saturday, 2 Sep</h4>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h3>27°C</h3>
+                                <h4>Sunday, 3 Sep</h4>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h3>18°C</h3>
+                                <h4>Monday, 4 Sep</h4>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h3>16°C</h3>
+                                <h4>Tuesday, 5 Sep</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-child-2 shadox w-[870px] h-[366px] py-[13px] px-[80px] rounded-[30px]">
+                        <h2>Hourly Forecast:</h2>
+
+                        <div class="flex items-center">
+                            <div class="flex flex-col gap-2">
+                                <h4>12:00</h4>
+                                <img src="" alt="">
+                                <h5>26°C</h5>
+                                <img src="" alt="">
+                                <h4>3km/h</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INFORMATION SECTION ENDED -->
+        </div>
+    </main>
+</body>
+
+</html>

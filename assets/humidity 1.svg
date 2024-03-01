@@ -1,0 +1,12 @@
+<svg width="60.000000" height="50.126587" viewBox="0 0 60 50.1266" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_12_3850" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image12_385_0" transform="matrix(0.012658,0,0,0.015152,0,0)"/>
+		</pattern>
+		<image id="image12_385_0" width="79.000000" height="66.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABCCAYAAAAWqotYAAAABHNCSVQICAgIfAhkiAAABMBJREFUeJztnOFxozoUhY8qiDtYOnjuYOkg6cDuYNPBbgcvHaxTwZIKIlcQUoFJBSEVnPdDVytZFiAMmXmTud+MxoltOFwk8Mw5SIYkAVg4LIAnY0yLBZCsANwCqAFsAGzltQXQy6s1xjwt1NlEOlXUuqhZuJr6hVpex9fyAeY5kfwhJ6G4EJI7ks8D+8zxTvJfktu5hZD8PUOH8v3bmTpbOb73zP6sIfkL7owCwPfMPhpp2d6TA7qTtkk+fkUYaT1Cr20B3CTfbQEcADwO6GwB7ESnSj5+w/loq6L2LfluJ/U85q4wutG8A7CX44z5iGppLjYkeU+yHenBZ2m53iDJjuQDJ0YtyT3JZkTnRXROA5/3JA8k6wmdWr7XD+znXXReRo6lIbkf00lFt3ISupGdpoXcFQsEnYrTHXZRCN0ImaOz4XSHxXRyXNXQPk2hcI1wafvX9Oa/6IYsOltc/sh0UbPGmG4FnQqXPzLx7cUu/dFUFEVRFEVRFEVRFOWLY0h+B/C2hluRQ6yjf+Tfj890K6QWAIAx5viJOhWATWrDn+hs52rBjr0dP2YuvtPZ4rPs94zWLck/E77cH8603zM6Wzne2AC2QxkGpfgdC03HwkJynEj+ZGGHDRRSwqwOozNpf3DYybaGzuispNXI5xgHuBSqg8sLerhLcSPb7HGZX7zJdt5kBILJuYVLvVIsXDbQQi5xhkvR61TJNh+Rjo3e93Xd4TIv6aKaYIw5ykm9kWOrZbuUJzm2LqopIGf8F8vs9xRvx0/2LoMtXmq/pzQstP1J3rHcfk9p6ez4WbZ/SXgSF7KftfNznYplecl1hQSdkoCLDCHW6CAoyjB8gQiX998Ae+1fTzkxcURpAcAYY9fUEa1a/qwRZTJr5DGKoiiKoiiKoiiKonxxDMmfCIblahmDuDDfEJwYjwXWyxgYMhLvwni8S/K6lkvCYJjWAN5yNvwLnf18rWe2Y5kdf+KCvITOa/zNaTve2+/1lToVXUxwSvY7mmGQheEJr88VPEV5yUghpZxYkJewLMSyxn8ZIVu4x+XcBZ8P+Euhx3nukR6MzxUaAF0cazJkJnvk8xKLkEW0CMZojct5EQDwGOn8veXQXWIVXBaxy2zXio6/Zfl91wgPrcccpaZu1JilG0kl9ntKca4gOtfmJS1nTCfg9XlJJ8dXldaUCvvwJCfckbRzChnR8R1mMzq9vH99IUHHd5hlfnBYFkyOuVZ8s7SAGVqLQvH/m46iKIqiKIqiKIqiKF8IQ/JZ/rZwxmB2UZi5kNzBmZHezNzgfAWJx5VWqqjhTNUK4anVHmFFjOMaT5WKk7RDyEpeh2z4q+YucL4dP2u6QlwI59nxJ86YrhDpjC3xZEFn/uUMyCJRTvv9baQxZEAWzZHg+FwPb8z6NuROTw4Mjg8Cb8w+mHQjuAwjN3fBJq/xQ9fpyHkCcDDGNMggnbGXluYl8WI3cVbiW8wrgAcAzcD6Uxup5R5hCpenS1r6IHmMn1NymLzVMHj+QyNyqOdHlw8a0Jo7R6JnwWP+GR2/vNOcXGY0k5mcSsAwSmp5yyde8QplzdKbMt0o8Tq+929wvkKZNcYcluiIltepcL7S2REhKWw+azKjAuA/ahH6ygg5KZMAAAAASUVORK5CYII="/>
+	</defs>
+	<rect id="humidity 1" width="60.000000" height="50.126583" fill="url(#pattern_12_3850)" fill-opacity="1.000000"/>
+</svg>
