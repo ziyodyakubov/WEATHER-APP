@@ -17,14 +17,14 @@
 }
 
 body {
-    background: linear-gradient(to right bottom, #666, black);
+    background: linear-gradient(to right bottom, #444444f2, black);
     background-repeat: no-repeat;
     background-size: cover;
     height: 232133px;
 }
 
 .shadox {
-    background-color: #444444 !important;
+    background-color: #444 !important;
     box-shadow: 10px 15px 15px 7px rgba(0, 0, 0, 0.38);
 }
 
