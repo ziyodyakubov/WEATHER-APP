@@ -17,10 +17,10 @@
 }
 
 body {
-    background: linear-gradient(to right bottom, #444444f2, black);
+    background: linear-gradient(to right bottom, #444444e0, black);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 232133px;
+    height: 1321px;
 }
 
 .shadox {
@@ -34,4 +34,8 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+.weather {
+    background: rgb(55, 54, 54);
 }
