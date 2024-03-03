@@ -31,7 +31,7 @@
                 <div class="search-country w-[803px] h-[62px] flex items-center">
                     <i class="bx bx-search text-[40px] text-[#666] relative left-[70px]"></i>
                     <input type="text" placeholder="Search for your preffered city..."
-                        class="w-[803px] h-[62px] rounded-[40px] shadow-lg border-[1px] border-[#00000028] bg-transparent pl-[82px] outline-none text-[18px] text-[#ffffff72]" />
+                        class="search w-[803px] h-[62px] rounded-[40px] shadow-lg border-[1px] border-[#00000028] bg-transparent pl-[82px] outline-none text-[18px] text-[#ffffff72]" />
                 </div>
 
                 <div
@@ -43,16 +43,19 @@
             <!-- TOP SECTION ENDED -->
 
             <!-- INFORMATION SECTION STARTED -->
-
             <div class="information-section container pt-[49px]">
                 <div class="first flex gap-[55px] justify-between items-center">
                     <div
                         class="first-child-1 shadox w-[510px] h-[330px] py-[53px] px-[107px] rounded-[30px] text-center">
-                        <h2 class="text-[36px] text-[#fff] font-[700] pb-[29px]">Athens</h2>
+                        <h2 class="text-[36px] text-[#fff] font-[700] pb-[29px]">Tashkent</h2>
 
                         <div class="flex flex-col">
-                            <h1 class="text-[96px] text-[#Fff] font-[700]">09:03</h1>
-                            <p class="text-[20px] text-[#fff] font-[400] relative bottom-[20px]">Thursday, 31 Aug</p>
+                            <div class="time text-[96px] text-[#Fff] font-[700]"><span
+                                    class="hour text-[96px] text-[#Fff] font-[700]">09</span>:<span
+                                    class="minute text-[96px] text-[#Fff] font-[700]">03</span></div>
+                            <div class="text-[20px] text-[#fff] font-[400] relative bottom-[20px]"><span
+                                    class="week-day">Thursday</span>, <span class="day">31</span> <span
+                                    class="month">Aug</span></div>
                         </div>
 
                     </div>
@@ -61,8 +64,8 @@
                         <div class="div flex flex-col">
                             <h2 class="text-[80px] font-[700] text-[#fff] haa">24°C</h2>
                             <div class="flex items-center haa relative bottom-[30px]">
-                                <h3 class="text-[20px] font-[600]">Feels like:</h3>
-                                <h2 class="text-[32px] font-[700] pl-[9px]">22°C</h2>
+                                <h3 class="text-[18px] font-[600]">Feels like:</h3>
+                                <h2 class="text-[32px] font-[700] pl-[9px] gradus">22°C</h2>
                             </div>
 
                             <div class="flex items-center gap-[11px] pt-[7px] pl-[26px]">
@@ -83,24 +86,26 @@
                         </div>
 
                         <div class="div flex flex-col">
-                            <div>
-                                <img src="./assets/clear 1.svg" alt="clear" class="relative bottom-[25px]">
+                            <div class="condition-img">
+
                             </div>
 
-                            <h3 class="text-[32px] text-[#fff] font-[700] text-center relative bottom-[35px]">Sunny</h3>
+                            <h3
+                                class="text-condition text-[32px] text-[#fff] font-[700] text-center relative bottom-[15px]">
+                                Sunny</h3>
                         </div>
 
                         <div class="div flex flex-col pt-[20px] gap-[20px]">
                             <div class="flex">
                                 <div class="flex flex-col gap-[10px] pl-[29px] pr-[24px] text-center">
                                     <img src="./assets/humidity 1.svg" alt="humidity" class="h-[50px]">
-                                    <h2 class="text-[20px] font-[600] text-[#fff]">41%</h2>
+                                    <h2 class="humidity text-[20px] font-[600] text-[#fff]"></h2>
                                     <h3 class="text-[16px] font-[500] text-[#fff]">Humidity</h3>
                                 </div>
 
                                 <div class="flex flex-col gap-[10px] px-[25px] text-center">
                                     <img src="./assets/wind 1.svg" alt="wind" class="h-[50px]">
-                                    <h2 class="text-[20px] font-[600] text-[#fff]">2km/h</h2>
+                                    <h2 class="wind text-[20px] font-[600] text-[#fff]">2km/h</h2>
                                     <h3 class="text-[16px] font-[500] text-[#fff]">Wind</h3>
                                 </div>
                             </div>
@@ -108,13 +113,13 @@
                             <div class="flex">
                                 <div class="flex flex-col gap-[10px] px-[28px] text-center">
                                     <img src="./assets/watch.svg" alt="watch" class="h-[50px]">
-                                    <h2 class="text-[20px] font-[600] text-[#fff]">997hPa</h2>
+                                    <h2 class="pressure text-[20px] font-[600] text-[#fff]">997hPa</h2>
                                     <h3 class="text-[16px] font-[500] text-[#fff]">Pressure</h3>
                                 </div>
 
                                 <div class="flex flex-col gap-[10px] px-[25px] text-center">
                                     <img src="./assets/uv-white 1.svg" alt="uv-white" class="h-[50px]">
-                                    <h2 class="text-[20px] font-[600] text-[#fff]">8</h2>
+                                    <h2 class="uv text-[20px] font-[600] text-[#fff]">8</h2>
                                     <h3 class="text-[16px] font-[500] text-[#fff]">UV</h3>
                                 </div>
                             </div>
@@ -208,10 +213,11 @@
                     </div>
                 </div>
             </div>
-
             <!-- INFORMATION SECTION ENDED -->
         </div>
     </main>
+    <!-- INDEX JS -->
+    <script src="./index.js"></script>
 </body>
 
 </html>
