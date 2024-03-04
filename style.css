@@ -46,7 +46,7 @@ body {
 }
 
 .light-mode {
-    background: linear-gradient(134.68deg, rgba(255, 255, 255, 0.464) 0.285%, rgb(35, 52, 64) 178.646%) !important;
+    background: linear-gradient(134.68deg, rgba(255, 255, 255, 0.12) 0.685%, rgb(70, 102, 125) 106.646%) !important;
     background-size: cover;
     background-position: top;
     font: 1000;
