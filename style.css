@@ -24,8 +24,9 @@ body {
 }
 
 .shadox {
-    background-color: #444 !important;
+    background-color: #444;
     box-shadow: 10px 15px 15px 7px rgba(0, 0, 0, 0.38);
+    color: #fff;
 }
 
 .haa {
@@ -38,4 +39,26 @@ body {
 
 .weather {
     background: rgb(55, 54, 54);
+}
+
+.weather-light {
+    background: rgb(194, 193, 193) !important;
+}
+
+.light-mode {
+    background: linear-gradient(134.68deg, rgba(255, 255, 255, 0.464) 0.285%, rgb(35, 52, 64) 178.646%) !important;
+    background-size: cover;
+    background-position: top;
+    font: 1000;
+}
+
+.card-light {
+    background: rgb(217, 217, 217) !important;
+    color: black !important;
+    font: 1000;
+}
+
+.inforbloger {
+    font: 1000;
+    color: #000 !important;
 }

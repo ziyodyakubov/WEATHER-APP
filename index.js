@@ -17,6 +17,11 @@ let humidity = document.querySelector('.humidity');
 let wind = document.querySelector('.wind');
 let pressure = document.querySelector('.pressure');
 let uv = document.querySelector('.uv');
+let darkBtn = document.querySelector('.bx-toggle-left');
+let body = document.querySelector('body');
+let infoSection = document.querySelector('.information-section');
+let shadox = document.querySelectorAll('.shadox');
+let weather = document.querySelectorAll('.weather');
 
 // VARIABLES ENDED
 
@@ -136,3 +141,20 @@ search.addEventListener('keyup',(e)=>{
 })
 
 // SEARCH PROCESSING ENDED
+
+
+
+// DARK MODE STARTED
+
+darkBtn.addEventListener('click',(e)=>{
+    body.classList.toggle('light-mode');
+    infoSection.classList.toggle('inforbloger');
+    shadox.forEach((el)=>{
+        el.classList.toggle('card-light');
+    })
+    weather.forEach((el)=>{
+        el.classList.toggle('weather-light');
+    })
+})
+
+// DARK MODE ENDED
